@@ -19,7 +19,7 @@ def decrypt(message):
     return dec
 
 
-print ("\n\n   Welcome to nash's SSH server   \n\n")
+print ("\n\n   Welcome to ZAHIN SSH server   \n\n")
 uname = input("  Enter username	: ")
 passw = getpass.getpass(prompt = "  Enter password	: ")
 p = paramiko.SSHClient()
